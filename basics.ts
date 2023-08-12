@@ -3,3 +3,6 @@
 // Function types, parameters
 
 // Primitives
+let age: number;
+
+age = 30;
