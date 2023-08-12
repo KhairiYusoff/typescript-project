@@ -30,3 +30,11 @@ person = {
   name: "kahi",
   age: 23,
 };
+
+let people: {
+  name: string;
+  age: number;
+}[];
+
+let aku: string = "sss";
+console.log(aku);
