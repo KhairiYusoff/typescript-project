@@ -7,6 +7,6 @@ let age: number;
 
 age = 30;
 
-let userName = "Khai";
+let userName: string = "Khai";
 
 userName = "Khairi";
