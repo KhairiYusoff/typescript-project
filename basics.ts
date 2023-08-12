@@ -6,3 +6,7 @@
 let age: number;
 
 age = 30;
+
+let userName = "Khai";
+
+userName = "Khairi";
