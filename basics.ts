@@ -10,3 +10,6 @@ age = 30;
 let userName: string = "Khai";
 
 userName = "Khairi";
+
+let instructor: boolean;
+instructor = true;
