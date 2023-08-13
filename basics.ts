@@ -41,8 +41,6 @@ console.log(aku);
 
 //Type inference
 
-let course = "react - the complete guide";
+let course: number | string = "react - the complete guide";
 
-let myage = 25; // number
-let myname = "Alice"; // string
-let isActive = true; // boolean
+course = 123;
