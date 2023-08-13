@@ -7,7 +7,7 @@ let age: number;
 
 age = 30;
 
-let userName: string = "Khai";
+let userName: string | string[] = "Khai";
 
 userName = "Khairi";
 
