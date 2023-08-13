@@ -36,9 +36,6 @@ person = {
 
 let people: Person[];
 
-let aku: string = "sss";
-console.log(aku);
-
 //Type inference
 
 let course: number | string = "react - the complete guide";
