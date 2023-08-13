@@ -21,20 +21,20 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
-let person: {
+//Type Aliases
+type Person = {
   name: string;
   age: number;
 };
+
+let person: Person;
 
 person = {
   name: "kahi",
   age: 23,
 };
 
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 
 let aku: string = "sss";
 console.log(aku);
