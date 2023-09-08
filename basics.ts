@@ -21,6 +21,9 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
+let myNumber: number[];
+myNumber = [1, 2, 3, 4, 5];
+
 //Type Aliases
 type Person = {
   name: string;
