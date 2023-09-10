@@ -22,6 +22,8 @@ Start the TypeScript compiler in watch mode to automatically compile TypeScript 
 
 `npx tsc --watch `
 
+`nodemon --exec ts-node basics.ts` - use this
+
 ## 4. Start Writing TypeScript
 
 You're now ready to start writing TypeScript code in your project! Simply create or edit .ts or .tsx files, and the TypeScript compiler will handle the compilation process for you.

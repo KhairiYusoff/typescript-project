@@ -45,6 +45,10 @@ let team: [string, number, ...string[]];
 team = ["Player 1", 10];
 team = ["Player 2", 20, "Player 3", "Player 4"]; // Valid
 
+let team2: [string, number, string[]];
+team2 = ["Player 1", 10, ["Player 2", "Player 3"]];
+console.log(team2);
+
 //more complex types
 
 let hobbies: string[];
