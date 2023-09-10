@@ -15,6 +15,36 @@ let instructor: boolean;
 
 instructor = true;
 
+// Number
+let numberOfStudents: number;
+numberOfStudents = 50;
+
+// String
+let courseName: string;
+courseName = "JavaScript Fundamentals";
+
+// Boolean
+let isCompleted: boolean;
+isCompleted = false;
+
+// Objects
+let person2: { name: string; age: number };
+person2 = { name: "Alice", age: 28 };
+
+// Tuples (fixed-length arrays)
+let coordinates: [number, number];
+coordinates = [10, 20];
+
+let mixedValues: [number, string, boolean];
+mixedValues = [100, "power", true];
+
+let measurement: [string, number, boolean, string];
+measurement = ["Temperature", 25, false, "Celsius"];
+
+let team: [string, number, ...string[]];
+team = ["Player 1", 10];
+team = ["Player 2", 20, "Player 3", "Player 4"]; // Valid
+
 //more complex types
 
 let hobbies: string[];
@@ -43,4 +73,6 @@ let people: Person[];
 
 let course: number | string = "react - the complete guide";
 
-course = 123;
+course = 123457;
+
+console.log(course);
