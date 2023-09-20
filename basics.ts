@@ -80,3 +80,13 @@ let course: number | string = "react - the complete guide";
 course = 123457;
 
 console.log(course);
+
+//functions
+
+function add2(a: number, b: number) {
+  return a + b;
+}
+
+const result2 = add2(2, 5);
+
+console.log(result2);
