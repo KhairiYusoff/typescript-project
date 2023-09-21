@@ -101,3 +101,7 @@ function insertAtBeginning(array: any[], value: any) {
   const newArray = [value, ...array];
   return newArray;
 }
+
+const demoArray = [1, 2, 3];
+const updateArray = insertAtBeginning(demoArray, -1);
+console.log(updateArray);
