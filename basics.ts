@@ -97,7 +97,7 @@ function print(value: any) {
 
 //generics
 
-function insertAtBeginning(array: any[], value: any) {
+function insertAtBeginning<T>(array: T[], value: T) {
   const newArray = [value, ...array];
   return newArray;
 }
