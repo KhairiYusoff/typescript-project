@@ -94,3 +94,10 @@ console.log(result2);
 function print(value: any) {
   console.log(value);
 }
+
+//generics
+
+function insertAtBeginning(array: any[], value: any) {
+  const newArray = [value, ...array];
+  return newArray;
+}
